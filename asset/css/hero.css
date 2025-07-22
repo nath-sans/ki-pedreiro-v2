@@ -1,0 +1,35 @@
+.hero{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/noite-construcao.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.conteudo-hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    position: absolute;
+    background: linear-gradient(to top, black, transparent);
+    backdrop-filter: blur(10px);
+    color: #ffffff;
+    width: 100%;
+    bottom: 0;
+    gap: 30px;
+}
+.botao-orcamento{
+    background-color: yellow;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px 5px 15px 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+.botao-orcamento:hover{
+    background-color: #f0a000;
+    color: #ffffff;
+}
